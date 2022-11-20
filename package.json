@@ -1,0 +1,26 @@
+{
+  "name": "vscode-mongodb-playgrounds-prettier-eslint",
+  "version": "1.0.0",
+  "description": "My config which enables Prettier and ESLint for MongoDB Playgrounds in VSCode, whilst keeping the Intellisense and MongoDB Playground syntax highlighting.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:check": "eslint src/",
+    "lint:fix": "eslint --fix src/",
+    "style:check": "prettier --check src/",
+    "style:fix": "prettier --write src/",
+    "mongo:check": "prettier --check '**/*.mongodb'",
+    "mongo:fix": "prettier --write '**/*.mongodb'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.28.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1"
+  }
+}
