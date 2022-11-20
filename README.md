@@ -102,3 +102,7 @@ Best to add the above settings into the user settings, although the seem to work
 After applying all these I now have ESLint linting the `*.mongodb` files and Prettier formatting them as well on save.
 
 Pretty convenient when I can quickly build out and test Atlas Functions locally in playgrounds and then deploy them to Atlas.
+
+Screencast of the result below:
+
+![Image](screen-recording.gif)
