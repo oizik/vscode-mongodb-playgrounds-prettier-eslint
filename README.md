@@ -82,7 +82,6 @@ I can run these from command line, and they can also be used with pre-commit hoo
 Coming back to VSCode Config, there are a few settings that I added. For prettier there is a setting called `prettier.documentSelectors` and for ESLint there are `eslint.validate` and `eslint.probe`.
 
 ```json
-//settings.json (extract)
 "prettier.documentSelectors": ["**/*.mongodb"],
 "eslint.probe": [
     "javascript",
@@ -103,6 +102,6 @@ After applying all these I now have ESLint linting the `*.mongodb` files and Pre
 
 Pretty convenient when I can quickly build out and test Atlas Functions locally in playgrounds and then deploy them to Atlas.
 
-Screencast of the result below:
+Scree cast of the result below:
 
 ![Image](screen-recording.gif)
