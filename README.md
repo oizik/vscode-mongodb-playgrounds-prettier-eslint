@@ -68,13 +68,13 @@ All this config actually has an added bonus, in that in `package.json` I have de
 
 ```json
 "scripts": {
-  "lint:check": "eslint ./",
-  "lint:fix": "eslint --fix ./",
-  "style:check": "prettier --check ./",
-  "style:fix": "prettier --write ./",
+  "lint:check": "eslint src/",
+  "lint:fix": "eslint --fix src/",
+  "style:check": "prettier --check src/",
+  "style:fix": "prettier --write src/",
   "mongo:check": "prettier --check '**/*.mongodb'",
-  "mongo:fix": "prettier --write '**/*.mongodb'",
-}
+  "mongo:fix": "prettier --write '**/*.mongodb'"
+},
 ```
 
 I can run these from command line, and they can also be used with pre-commit hooks.
